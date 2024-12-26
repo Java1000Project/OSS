@@ -13,6 +13,8 @@ The study utilized a data-driven approach employing statistical methods and mach
 
 ### Data Collection
 Data was collected using a custom Scrapy spider that extracted relevant details from GitHub repositories of Java projects, focusing on metrics such as activity levels and contributor numbers since 2005.
+## Dataset
+The dataset used in this project can be downloaded from https://docs.google.com/spreadsheets/d/1TxwrCXAatKgOr1I457TKgh-dVWIXWet0/edit?usp=sharing&ouid=118127860167148424482&rtpof=true&sd=true
 
 ### Statistical and Machine Learning Analysis
 A comparative analysis of project characteristics under different governance models was conducted, using methodologies like logistic regression and random forest algorithms to assess their impacts.
@@ -25,5 +27,3 @@ cd yourprojectname
 pip install -r requirements.txt
 python analyze.py
 
-## Dataset
-The dataset used in this project can be downloaded from https://docs.google.com/spreadsheets/d/1TxwrCXAatKgOr1I457TKgh-dVWIXWet0/edit?usp=sharing&ouid=118127860167148424482&rtpof=true&sd=true
